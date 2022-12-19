@@ -12,5 +12,8 @@ class MainActivity : AppCompatActivity() {
         val input1 = readln().toInt()
         println("Please input number 2 : ")
         val input2 = readln().toInt()
+
+        val plus = input1+input2
+        println("Total : $plus")
     }
 }
