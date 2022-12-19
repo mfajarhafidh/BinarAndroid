@@ -18,5 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         val min = input1-input2
         println("Total : $min")
+
+        val multiplication = input1*input2
+        println("Total : $multiplication")
     }
 }
