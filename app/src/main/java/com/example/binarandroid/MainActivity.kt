@@ -15,5 +15,8 @@ class MainActivity : AppCompatActivity() {
 
         val plus = input1+input2
         println("Total : $plus")
+
+        val min = input1-input2
+        println("Total : $min")
     }
 }
