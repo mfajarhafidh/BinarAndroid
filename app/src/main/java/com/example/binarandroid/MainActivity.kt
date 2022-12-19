@@ -21,5 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         val multiplication = input1*input2
         println("Total : $multiplication")
+
+        val divided = input1/input2
+        println("Total : $divided")
     }
 }
